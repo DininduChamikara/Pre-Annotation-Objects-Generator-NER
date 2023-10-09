@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pre-Annotation-Objects-Generator-NER/static/css/main.c71dc0a4.css",
+    "main.js": "/Pre-Annotation-Objects-Generator-NER/static/js/main.b0a46269.js",
+    "static/js/787.550c2542.chunk.js": "/Pre-Annotation-Objects-Generator-NER/static/js/787.550c2542.chunk.js",
+    "index.html": "/Pre-Annotation-Objects-Generator-NER/index.html",
+    "main.c71dc0a4.css.map": "/Pre-Annotation-Objects-Generator-NER/static/css/main.c71dc0a4.css.map",
+    "main.b0a46269.js.map": "/Pre-Annotation-Objects-Generator-NER/static/js/main.b0a46269.js.map",
+    "787.550c2542.chunk.js.map": "/Pre-Annotation-Objects-Generator-NER/static/js/787.550c2542.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c71dc0a4.css",
+    "static/js/main.b0a46269.js"
+  ]
+}
