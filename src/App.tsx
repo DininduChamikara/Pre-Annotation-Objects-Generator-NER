@@ -35,26 +35,26 @@ function App() {
       <div className="text-2xl font-semibold italic text-center pb-10 text-amber-800">
         for a Named Entity Recognition Research
       </div>
-      <div className="flex gap-5">
-        <div className="w-1/2">
-          <div className="flex gap-5 w-full">
-            <div className="w-1/2">
+      <div className="block sm:flex gap-5">
+        <div className="sm:w-1/2">
+          <div className="flex flex-col sm:flex-row gap-3 w-full">
+            <div className="sm:w-1/2">
               <select
                 onChange={handleOnChangeLanguage}
-                className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center align-middle justify-center cursor-pointer w-full h-10"
+                className="bg-blue-500 text-white font-bold py-2 px-4 rounded-2xl flex items-center cursor-pointer w-full h-10"
               >
                 <option value="sinhala">Sinhala</option>
                 <option value="english">English</option>
               </select>
             </div>
             <div
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer w-1/2 h-10"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl flex items-center align-middle justify-center cursor-pointer sm:w-1/2 h-10"
               onClick={handleOnClickGenerate}
             >
               Generate New
             </div>
           </div>
-          <div className="pt-14 font-semibold text-2xl">About</div>
+          <div className="pt-10 font-semibold text-2xl">About</div>
           <div className="pt-5">
             The purpose of this application is to create pre-annotated objects
             for News Article Corpus for various languages. Currently this
@@ -65,7 +65,7 @@ function App() {
             Clustering using Name Entity Recognition'.
           </div>
           <div className="pt-10 font-semibold text-2xl">How it use?</div>
-          <div className="pt-5">
+          <div className="py-5">
             <ol className="list-decimal list-inside">
               <li>
                 Select the language you want to generate pre-annotated objects.
@@ -84,7 +84,7 @@ function App() {
             </ol>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="sm:w-1/2">
           <CodeBox code={code} setCode={setCode} />
         </div>
       </div>

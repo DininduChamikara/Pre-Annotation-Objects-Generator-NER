@@ -20,10 +20,7 @@ function CodeBox({ code, setCode }: CodeBoxProps) {
         value={code}
         onChange={handleOnChange}
         options={{
-          inlineSuggest: true,
-          fontSize: "16px",
           formatOnType: true,
-          autoClosingBrackets: true,
           minimap: { scale: 10 },
         }}
       />
