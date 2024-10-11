@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pre-Annotation-Objects-Generator-NER/static/css/main.060bb8d7.css",
-    "main.js": "/Pre-Annotation-Objects-Generator-NER/static/js/main.f510b37e.js",
+    "main.js": "/Pre-Annotation-Objects-Generator-NER/static/js/main.17158bd5.js",
     "static/js/787.550c2542.chunk.js": "/Pre-Annotation-Objects-Generator-NER/static/js/787.550c2542.chunk.js",
     "index.html": "/Pre-Annotation-Objects-Generator-NER/index.html",
     "main.060bb8d7.css.map": "/Pre-Annotation-Objects-Generator-NER/static/css/main.060bb8d7.css.map",
-    "main.f510b37e.js.map": "/Pre-Annotation-Objects-Generator-NER/static/js/main.f510b37e.js.map",
+    "main.17158bd5.js.map": "/Pre-Annotation-Objects-Generator-NER/static/js/main.17158bd5.js.map",
     "787.550c2542.chunk.js.map": "/Pre-Annotation-Objects-Generator-NER/static/js/787.550c2542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.060bb8d7.css",
-    "static/js/main.f510b37e.js"
+    "static/js/main.17158bd5.js"
   ]
 }
